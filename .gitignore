@@ -1,0 +1,21 @@
+# BACKEND
+
+target
+*~
+.class
+.metadata
+bin
+.polyglot.*
+.tycho-consumer-pom.xml
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#Auto generated files by VSCode
+.settings/

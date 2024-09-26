@@ -1,0 +1,51 @@
+{
+	"folders": [{
+		"path": "./",
+		"name": "Polarion VSCode Demo"
+	}],
+	"settings": {
+		//JAVA BUILD SETTINGS
+		//"java.jdt.ls.java.home":"",
+		"java.configuration.updateBuildConfiguration": "automatic", 
+		"java.autobuild.enabled": true,
+		"java.import.generatesMetadataFilesAtProjectRoot": false,
+		"java.debug.settings.forceBuildBeforeLaunch": false,
+		"java.debug.settings.hotCodeReplace": "auto",
+
+		//JAVA CODELENSE SETTINGS
+		"java.references.includeDecompiledSources": true,
+		"java.referencesCodeLens.enabled": true,
+		"java.implementationsCodeLens.enabled": true,
+
+		"java.signatureHelp.enabled": true,
+		"java.signatureHelp.description.enabled": true,
+		"java.completion.enabled": true,
+		"java.completion.guessMethodArguments": "insertBestGuessedArguments",
+		"java.dependency.autoRefresh": true,
+		"java.showBuildStatusOnStart.enabled": "terminal",
+		"java.dependency.packagePresentation": "hierarchical",
+		"java.dependency.syncWithFolderExplorer": true,
+		
+		// JAVA FORMAT SETTINGS
+		"java.format.settings.url": "./cip_java_format.xml",
+		"java.compile.nullAnalysis.mode": "automatic",
+		"java.saveActions.organizeImports": true,
+		"java.cleanup.actions": [
+			"addDeprecated",
+			"addOverride",
+			"invertEquals",
+			"lambdaExpression",
+			"tryWithResource",
+			"stringConcatToTextBlock",
+			"instanceofPatternMatch",
+			"switchExpression"
+		],
+	},
+	//Recommended Extensions
+	"extensions": {
+		"recommendations": [
+			"yaozheng.vscode-pde",
+			"vscjava.vscode-java-pack"
+		]
+	}
+}

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+    <booleanAttribute key="append.args" value="true"/>
+    <booleanAttribute key="askclear" value="true"/>
+    <booleanAttribute key="automaticAdd" value="true"/>
+    <booleanAttribute key="automaticValidate" value="true"/>
+    <stringAttribute key="bootstrap" value=""/>
+    <stringAttribute key="checked" value="[NONE]"/>
+    <booleanAttribute key="clearConfig" value="true"/>
+    <booleanAttribute key="clearws" value="false"/>
+    <booleanAttribute key="clearwslog" value="false"/>
+    <booleanAttribute key="default" value="false"/>
+    <booleanAttribute key="includeOptional" value="true"/>
+    <stringAttribute key="location" value="C:\Polarion\data\workspace"/>
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-17.0.12+7"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os win32 -ws win32 -arch x86 -appId polarion.server"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xms1g -Xmx1g&#13;&#10;-Dcom.polarion.home=C:\Polarion\polarion&#13;&#10;-XX:+UseBiasedLocking -XX:BiasedLockingStartupDelay=0&#13;&#10;--add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.annotation=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.module=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.math=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.net.spi=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.channels=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.nio.channels.spi=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.nio.charset.spi=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.nio.file=ALL-UNNAMED --add-opens=java.base/java.nio.file.attribute=ALL-UNNAMED --add-opens=java.base/java.nio.file.spi=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.security.cert=ALL-UNNAMED --add-opens=java.base/java.security.interfaces=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.security.spec=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.text.spi=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.time.chrono=ALL-UNNAMED --add-opens=java.base/java.time.format=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.time.temporal=ALL-UNNAMED --add-opens=java.base/java.time.zone=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.util.function=ALL-UNNAMED --add-opens=java.base/java.util.jar=ALL-UNNAMED --add-opens=java.base/java.util.regex=ALL-UNNAMED&#13;&#10;--add-opens=java.base/java.util.spi=ALL-UNNAMED --add-opens=java.base/java.util.stream=ALL-UNNAMED --add-opens=java.base/java.util.zip=ALL-UNNAMED&#13;&#10;--add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.datatransfer/java.awt.datatransfer=ALL-UNNAMED&#13;&#10;--add-opens=java.desktop/java.applet=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.color=ALL-UNNAMED&#13;&#10;--add-opens=java.desktop/java.awt.desktop=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED&#13;&#10;--add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/java.awt.geom=ALL-UNNAMED&#13;&#10;--add-opens=java.desktop/java.awt.im=ALL-UNNAMED --add-opens=java.desktop/java.awt.im.spi=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED&#13;&#10;--add-opens=java.desktop/java.awt.image.renderable=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.print=ALL-UNNAMED&#13;&#10;--add-opens=java.desktop/java.beans=ALL-UNNAMED --add-opens=java.desktop/java.beans.beancontext=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED&#13;&#10;--add-opens=java.desktop/javax.swing.border=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED&#13;&#10;--add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED&#13;&#10;--add-opens=java.instrument/java.lang.instrument=ALL-UNNAMED --add-opens=java.logging/java.util.logging=ALL-UNNAMED --add-opens=java.management/java.lang.management=ALL-UNNAMED&#13;&#10;--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.rmi/java.rmi=ALL-UNNAMED --add-opens=java.rmi/java.rmi.dgc=ALL-UNNAMED&#13;&#10;--add-opens=java.rmi/java.rmi.registry=ALL-UNNAMED --add-opens=java.rmi/java.rmi.server=ALL-UNNAMED --add-opens=java.sql/java.sql=ALL-UNNAMED&#13;&#10;--add-opens=java.xml/com.sun.org.apache.xerces.internal.dom=ALL-UNNAMED --add-opens=java.xml/com.sun.org.apache.xerces.internal.jaxp=ALL-UNNAMED&#13;&#10;--add-opens=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED --add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED"/>
+    <stringAttribute key="pde.version" value="3.3"/>
+    <stringAttribute key="product" value=""/>
+    <setAttribute key="selected_target_bundles">
+        <setEntry value="antlr4-runtime@default:default"/>
+        <setEntry value="antlr4@default:default"/>
+        <setEntry value="antlr@default:default"/>
+        <setEntry value="bcpkix@default:default"/>
+        <setEntry value="bcprov.patched@default:default"/>
+        <setEntry value="bcutil@default:default"/>
+        <setEntry value="checker-qual@default:default"/>
+        <setEntry value="com.auth0.java-jwt@default:default"/>
+        <setEntry value="com.fasterxml.classmate@default:default"/>
+        <setEntry value="com.fasterxml.jackson.annotations@default:default"/>
+        <setEntry value="com.fasterxml.jackson.core@default:default"/>
+        <setEntry value="com.fasterxml.jackson.databind@default:default"/>
+        <setEntry value="com.fasterxml.jackson.dataformat.xml@default:default"/>
+        <setEntry value="com.fasterxml.jackson.jaxrs.base@default:default"/>
+        <setEntry value="com.fasterxml.jackson.jaxrs.json.provider@default:default"/>
+        <setEntry value="com.fasterxml.jackson.jaxrs.xml.provider@default:default"/>
+        <setEntry value="com.fasterxml.jackson.jaxrs@default:default"/>
+        <setEntry value="com.fasterxml.jackson.module.jaxb.annotations@default:default"/>
+        <setEntry value="com.fasterxml.jackson@default:default"/>
+        <setEntry value="com.fasterxml.woodstox.core@default:default"/>
+        <setEntry value="com.google.errorprone.annotations@default:default"/>
+        <setEntry value="com.google.gson@default:default"/>
+        <setEntry value="com.google.guava.failureaccess@default:default"/>
+        <setEntry value="com.google.guava@default:default"/>
+        <setEntry value="com.google.j2objc.annotaions@default:default"/>
+        <setEntry value="com.ibm.icu@default:default"/>
+        <setEntry value="com.icl.saxon.patched@default:default"/>
+        <setEntry value="com.jayway.jsonpath.json-path@default:default"/>
+        <setEntry value="com.jcraft.jsch@default:default"/>
+        <setEntry value="com.networknt.json-schema-validator@default:default"/>
+        <setEntry value="com.nimbusds.content-type@default:default"/>
+        <setEntry value="com.nimbusds.nimbus-jose-jwt@default:default"/>
+        <setEntry value="com.opensymphony.quartz@default:default"/>
+        <setEntry value="com.polarion.alm.builder@default:default"/>
+        <setEntry value="com.polarion.alm.checker@default:default"/>
+        <setEntry value="com.polarion.alm.impex@default:default"/>
+        <setEntry value="com.polarion.alm.install@default:default"/>
+        <setEntry value="com.polarion.alm.oslc@default:default"/>
+        <setEntry value="com.polarion.alm.projects@default:default"/>
+        <setEntry value="com.polarion.alm.qcentre@default:default"/>
+        <setEntry value="com.polarion.alm.tracker@default:default"/>
+        <setEntry value="com.polarion.alm.ui.diagrams.mxgraph@default:default"/>
+        <setEntry value="com.polarion.alm.ui@default:default"/>
+        <setEntry value="com.polarion.alm.wiki@default:default"/>
+        <setEntry value="com.polarion.alm.ws.client@default:default"/>
+        <setEntry value="com.polarion.alm.ws@default:default"/>
+        <setEntry value="com.polarion.cluster@default:default"/>
+        <setEntry value="com.polarion.core.boot@default:default"/>
+        <setEntry value="com.polarion.core.util@default:default"/>
+        <setEntry value="com.polarion.fop@default:default"/>
+        <setEntry value="com.polarion.platform.guice@default:default"/>
+        <setEntry value="com.polarion.platform.hivemind@default:default"/>
+        <setEntry value="com.polarion.platform.jobs@default:default"/>
+        <setEntry value="com.polarion.platform.monitoring@default:default"/>
+        <setEntry value="com.polarion.platform.persistence@default:default"/>
+        <setEntry value="com.polarion.platform.repository.driver.svn@default:default"/>
+        <setEntry value="com.polarion.platform.repository.external.git@default:default"/>
+        <setEntry value="com.polarion.platform.repository.external.svn@default:default"/>
+        <setEntry value="com.polarion.platform.repository.external@default:default"/>
+        <setEntry value="com.polarion.platform.repository@default:default"/>
+        <setEntry value="com.polarion.platform.sql@default:default"/>
+        <setEntry value="com.polarion.platform@default:default"/>
+        <setEntry value="com.polarion.portal.tomcat@default:default"/>
+        <setEntry value="com.polarion.psvn.launcher@default:default"/>
+        <setEntry value="com.polarion.psvn.translations.en@default:default"/>
+        <setEntry value="com.polarion.purevariants@default:default"/>
+        <setEntry value="com.polarion.qcentre@default:default"/>
+        <setEntry value="com.polarion.scripting.servlet@default:default"/>
+        <setEntry value="com.polarion.scripting@default:default"/>
+        <setEntry value="com.polarion.subterra.base@default:default"/>
+        <setEntry value="com.polarion.subterra.index@default:default"/>
+        <setEntry value="com.polarion.subterra.persistence.document@default:default"/>
+        <setEntry value="com.polarion.subterra.persistence@default:default"/>
+        <setEntry value="com.polarion.synchronizer.proxy.hpalm@default:default"/>
+        <setEntry value="com.polarion.synchronizer.proxy.jira@default:default"/>
+        <setEntry value="com.polarion.synchronizer.proxy.polarion@default:default"/>
+        <setEntry value="com.polarion.synchronizer.proxy.reqif@default:default"/>
+        <setEntry value="com.polarion.synchronizer.ui@default:default"/>
+        <setEntry value="com.polarion.synchronizer@default:default"/>
+        <setEntry value="com.polarion.usdp.persistence@default:default"/>
+        <setEntry value="com.siemens.des.logger.api.patched@default:default"/>
+        <setEntry value="com.siemens.plm.bitools.analytics@default:default"/>
+        <setEntry value="com.siemens.polarion.ct.collectors.git@default:default"/>
+        <setEntry value="com.siemens.polarion.eclipse.configurator@default:default"/>
+        <setEntry value="com.siemens.polarion.integration.ci@default:default"/>
+        <setEntry value="com.siemens.polarion.previewer.external@default:default"/>
+        <setEntry value="com.siemens.polarion.previewer@default:default"/>
+        <setEntry value="com.siemens.polarion.rest@default:default"/>
+        <setEntry value="com.siemens.polarion.rt.api@default:default"/>
+        <setEntry value="com.siemens.polarion.rt.collectors.git@default:default"/>
+        <setEntry value="com.siemens.polarion.rt.communication.common@default:default"/>
+        <setEntry value="com.siemens.polarion.rt.communication.polarion@default:default"/>
+        <setEntry value="com.siemens.polarion.rt.communication.rt@default:default"/>
+        <setEntry value="com.siemens.polarion.rt.parsers.c@default:default"/>
+        <setEntry value="com.siemens.polarion.rt.ui@default:default"/>
+        <setEntry value="com.siemens.polarion.rt@default:default"/>
+        <setEntry value="com.siemens.polarion.salt.wrapper@default:default"/>
+        <setEntry value="com.siemens.polarion.synchronizer.proxy.tfs@default:default"/>
+        <setEntry value="com.siemens.polarion.tcconfigurator@default:default"/>
+        <setEntry value="com.sun.activation.javax.activation.patched@default:default"/>
+        <setEntry value="com.sun.istack.commons-runtime@default:default"/>
+        <setEntry value="com.sun.jna.platform@default:default"/>
+        <setEntry value="com.sun.jna@default:default"/>
+        <setEntry value="com.sun.xml.bind.jaxb-impl.patched@default:false"/>
+        <setEntry value="com.trilead.ssh2@default:default"/>
+        <setEntry value="com.zaxxer.hikariCP@default:default"/>
+        <setEntry value="des-sdk-core@default:default"/>
+        <setEntry value="des-sdk-dss@default:default"/>
+        <setEntry value="io.dropwizard.metrics.core@default:default"/>
+        <setEntry value="io.github.resilience4j.circuitbreaker@default:default"/>
+        <setEntry value="io.github.resilience4j.core.patched@default:default"/>
+        <setEntry value="io.github.resilience4j.retry@default:default"/>
+        <setEntry value="io.swagger@default:default"/>
+        <setEntry value="io.vavr@default:default"/>
+        <setEntry value="jakaroma@default:default"/>
+        <setEntry value="jakarta.activation.api@default:default"/>
+        <setEntry value="jakarta.validation.validation-api@default:default"/>
+        <setEntry value="jakarta.xml.bind-api@default:default"/>
+        <setEntry value="javassist@default:default"/>
+        <setEntry value="javax.annotation-api@default:default"/>
+        <setEntry value="javax.cache@default:default"/>
+        <setEntry value="javax.inject@default:default"/>
+        <setEntry value="javax.persistence-api@default:default"/>
+        <setEntry value="javax.servlet@default:default"/>
+        <setEntry value="javax.transaction@default:default"/>
+        <setEntry value="jaxb-api.patched@default:default"/>
+        <setEntry value="jcip-annotations@default:default"/>
+        <setEntry value="jcl.over.slf4j@default:default"/>
+        <setEntry value="jul-to-slf4j@default:default"/>
+        <setEntry value="kuromoji-core@default:default"/>
+        <setEntry value="kuromoji-ipadic@default:default"/>
+        <setEntry value="lang-tag@default:default"/>
+        <setEntry value="net.bytebuddy.byte-buddy@default:default"/>
+        <setEntry value="net.htmlparser.jericho@default:default"/>
+        <setEntry value="net.java.dev.jna@default:default"/>
+        <setEntry value="net.minidev.accessors-smart@default:default"/>
+        <setEntry value="net.minidev.asm@default:default"/>
+        <setEntry value="net.minidev.json-smart@default:default"/>
+        <setEntry value="net.n3.nanoxml@default:default"/>
+        <setEntry value="net.shibboleth.utilities.java.support@default:default"/>
+        <setEntry value="net.sourceforge.cssparser@default:default"/>
+        <setEntry value="nu.xom@default:default"/>
+        <setEntry value="oauth2-oidc-sdk@default:default"/>
+        <setEntry value="org.apache.ant@default:default"/>
+        <setEntry value="org.apache.avro@default:default"/>
+        <setEntry value="org.apache.axis@default:default"/>
+        <setEntry value="org.apache.batik.patched@default:default"/>
+        <setEntry value="org.apache.commons.codec@default:default"/>
+        <setEntry value="org.apache.commons.collections@default:default"/>
+        <setEntry value="org.apache.commons.commons-beanutils@default:default"/>
+        <setEntry value="org.apache.commons.commons-codec@default:default"/>
+        <setEntry value="org.apache.commons.commons-collections4@default:default"/>
+        <setEntry value="org.apache.commons.commons-compress@default:default"/>
+        <setEntry value="org.apache.commons.commons-fileupload@default:default"/>
+        <setEntry value="org.apache.commons.commons-io@default:default"/>
+        <setEntry value="org.apache.commons.digester.patched@default:default"/>
+        <setEntry value="org.apache.commons.exec@default:default"/>
+        <setEntry value="org.apache.commons.io@default:default"/>
+        <setEntry value="org.apache.commons.lang3@default:default"/>
+        <setEntry value="org.apache.commons.lang@default:default"/>
+        <setEntry value="org.apache.commons.logging@default:default"/>
+        <setEntry value="org.apache.curator@default:default"/>
+        <setEntry value="org.apache.felix.scr@1:true"/>
+        <setEntry value="org.apache.fop@default:default"/>
+        <setEntry value="org.apache.hivemind@default:default"/>
+        <setEntry value="org.apache.httpcomponents.httpclient@default:default"/>
+        <setEntry value="org.apache.httpcomponents.httpcore@default:default"/>
+        <setEntry value="org.apache.httpcomponents.httpmime@default:default"/>
+        <setEntry value="org.apache.kafka.clients@default:default"/>
+        <setEntry value="org.apache.kafka.streams@default:default"/>
+        <setEntry value="org.apache.logging.log4j.1.2-api@default:false"/>
+        <setEntry value="org.apache.logging.log4j.api@default:default"/>
+        <setEntry value="org.apache.logging.log4j.apiconf@default:false"/>
+        <setEntry value="org.apache.logging.log4j.core@default:default"/>
+        <setEntry value="org.apache.logging.log4j.slf4j-impl@default:false"/>
+        <setEntry value="org.apache.lucene.analysis-common@default:default"/>
+        <setEntry value="org.apache.lucene.core@default:default"/>
+        <setEntry value="org.apache.lucene.grouping@default:default"/>
+        <setEntry value="org.apache.lucene.queryparser@default:default"/>
+        <setEntry value="org.apache.maven.core@default:default"/>
+        <setEntry value="org.apache.maven.embedder@default:default"/>
+        <setEntry value="org.apache.maven.model.builder@default:default"/>
+        <setEntry value="org.apache.maven.model@default:default"/>
+        <setEntry value="org.apache.oro@default:default"/>
+        <setEntry value="org.apache.pdfbox.fontbox@default:default"/>
+        <setEntry value="org.apache.poi@default:default"/>
+        <setEntry value="org.apache.santuario.xmlsec@default:default"/>
+        <setEntry value="org.apache.tika.patched@default:default"/>
+        <setEntry value="org.apache.velocity.engine-core@default:default"/>
+        <setEntry value="org.apache.xalan@default:default"/>
+        <setEntry value="org.apache.xercesImpl@default:default"/>
+        <setEntry value="org.apache.xml.serializer@default:default"/>
+        <setEntry value="org.apache.xmlgraphics.commons.patched@default:default"/>
+        <setEntry value="org.apache.zookeeper@default:default"/>
+        <setEntry value="org.codehaus.groovy@default:default"/>
+        <setEntry value="org.codehaus.plexus.classworlds@default:default"/>
+        <setEntry value="org.codehaus.plexus.utils@default:default"/>
+        <setEntry value="org.codehaus.woodstox.stax2-api@default:default"/>
+        <setEntry value="org.cryptacular@default:default"/>
+        <setEntry value="org.dom4j@default:default"/>
+        <setEntry value="org.eclipse.core.contenttype@default:default"/>
+        <setEntry value="org.eclipse.core.expressions@default:default"/>
+        <setEntry value="org.eclipse.core.filesystem.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.core.filesystem@default:default"/>
+        <setEntry value="org.eclipse.core.jobs@default:default"/>
+        <setEntry value="org.eclipse.core.net.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.core.net@default:default"/>
+        <setEntry value="org.eclipse.core.resources.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.core.resources@default:default"/>
+        <setEntry value="org.eclipse.core.runtime@default:true"/>
+        <setEntry value="org.eclipse.equinox.app@default:default"/>
+        <setEntry value="org.eclipse.equinox.common@2:true"/>
+        <setEntry value="org.eclipse.equinox.event@default:default"/>
+        <setEntry value="org.eclipse.equinox.launcher.win32.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.equinox.launcher@default:default"/>
+        <setEntry value="org.eclipse.equinox.preferences@default:default"/>
+        <setEntry value="org.eclipse.equinox.registry@default:default"/>
+        <setEntry value="org.eclipse.equinox.security.win32.x86_64@default:false"/>
+        <setEntry value="org.eclipse.equinox.security@default:default"/>
+        <setEntry value="org.eclipse.equinox.simpleconfigurator@1:true"/>
+        <setEntry value="org.eclipse.jgit@default:default"/>
+        <setEntry value="org.eclipse.osgi.services@default:default"/>
+        <setEntry value="org.eclipse.osgi.util@default:default"/>
+        <setEntry value="org.eclipse.osgi@1:true"/>
+        <setEntry value="org.ehcache@default:default"/>
+        <setEntry value="org.gitlab.java-gitlab-api@default:default"/>
+        <setEntry value="org.glassfish.jersey@default:default"/>
+        <setEntry value="org.graalvm.js-scriptengine@default:default"/>
+        <setEntry value="org.graalvm.js@default:default"/>
+        <setEntry value="org.graalvm.regex@default:default"/>
+        <setEntry value="org.graalvm.sdk@default:default"/>
+        <setEntry value="org.graalvm.truffle-api@default:default"/>
+        <setEntry value="org.hibernate.common.hibernate-commons-annotations@default:default"/>
+        <setEntry value="org.hibernate.orm.core@default:default"/>
+        <setEntry value="org.hibernate.orm.hikaricp@default:default"/>
+        <setEntry value="org.jboss.jandex@default:default"/>
+        <setEntry value="org.jboss.logging@default:default"/>
+        <setEntry value="org.jsoup@default:default"/>
+        <setEntry value="org.jsr-305@default:default"/>
+        <setEntry value="org.jvnet.mimepull@default:default"/>
+        <setEntry value="org.objectweb.asm@default:default"/>
+        <setEntry value="org.objectweb.jotm@default:default"/>
+        <setEntry value="org.opensaml.core@default:default"/>
+        <setEntry value="org.opensaml.messaging.api@default:default"/>
+        <setEntry value="org.opensaml.messaging.impl@default:default"/>
+        <setEntry value="org.opensaml.profile.api@default:default"/>
+        <setEntry value="org.opensaml.profile.impl@default:default"/>
+        <setEntry value="org.opensaml.saml.api@default:default"/>
+        <setEntry value="org.opensaml.saml.impl@default:default"/>
+        <setEntry value="org.opensaml.security.api@default:default"/>
+        <setEntry value="org.opensaml.security.impl@default:default"/>
+        <setEntry value="org.opensaml.soap.api@default:default"/>
+        <setEntry value="org.opensaml.soap.impl@default:default"/>
+        <setEntry value="org.opensaml.storage.api@default:default"/>
+        <setEntry value="org.opensaml.storage.impl@default:default"/>
+        <setEntry value="org.opensaml.xmlsec.api@default:default"/>
+        <setEntry value="org.opensaml.xmlsec.impl@default:default"/>
+        <setEntry value="org.osgi.service.cm@default:default"/>
+        <setEntry value="org.osgi.service.component@default:default"/>
+        <setEntry value="org.osgi.service.device@default:default"/>
+        <setEntry value="org.osgi.service.event@default:default"/>
+        <setEntry value="org.osgi.service.metatype@default:default"/>
+        <setEntry value="org.osgi.service.prefs@default:default"/>
+        <setEntry value="org.osgi.service.provisioning@default:default"/>
+        <setEntry value="org.osgi.service.upnp@default:default"/>
+        <setEntry value="org.osgi.service.useradmin@default:default"/>
+        <setEntry value="org.osgi.service.wireadmin@default:default"/>
+        <setEntry value="org.osgi.util.function@default:default"/>
+        <setEntry value="org.osgi.util.measurement@default:default"/>
+        <setEntry value="org.osgi.util.position@default:default"/>
+        <setEntry value="org.osgi.util.promise@default:default"/>
+        <setEntry value="org.osgi.util.xml@default:default"/>
+        <setEntry value="org.polarion.svncommons@default:default"/>
+        <setEntry value="org.polarion.svnwebclient@default:default"/>
+        <setEntry value="org.postgresql@default:default"/>
+        <setEntry value="org.rocksdb.rocksdbjni@default:default"/>
+        <setEntry value="org.springframework.data-commons@default:default"/>
+        <setEntry value="org.springframework.data-jpa@default:default"/>
+        <setEntry value="org.springframework.spring-aop@default:default"/>
+        <setEntry value="org.springframework.spring-beans@default:default"/>
+        <setEntry value="org.springframework.spring-context@default:default"/>
+        <setEntry value="org.springframework.spring-core@default:default"/>
+        <setEntry value="org.springframework.spring-expression@default:default"/>
+        <setEntry value="org.springframework.spring-jdbc@default:default"/>
+        <setEntry value="org.springframework.spring-orm@default:default"/>
+        <setEntry value="org.springframework.spring-test@default:default"/>
+        <setEntry value="org.springframework.spring-tx@default:default"/>
+        <setEntry value="org.springframework.spring-web@default:default"/>
+        <setEntry value="org.springframework.spring-webmvc@default:default"/>
+        <setEntry value="org.tmatesoft.sqljet@default:default"/>
+        <setEntry value="org.tmatesoft.svnkit@default:default"/>
+        <setEntry value="saaj-api@default:default"/>
+        <setEntry value="sdk-lifecycle-collab@default:default"/>
+        <setEntry value="sdk-lifecycle-docmgmt@default:default"/>
+        <setEntry value="siemens.des.clientsecurity@default:default"/>
+        <setEntry value="slf4j.api@default:default"/>
+        <setEntry value="xml-apis@default:default"/>
+        <setEntry value="xml.apis.ext.patched@default:default"/>
+        <setEntry value="xstream@default:default"/>
+    </setAttribute>
+    <setAttribute key="selected_workspace_bundles">
+        <setEntry value="eu.cipalpha.demo@default:true"/>
+    </setAttribute>
+    <setAttribute key="deselected_workspace_bundles"/>
+    <booleanAttribute key="show_selected_only" value="false"/>
+    <booleanAttribute key="tracing" value="false"/>
+    <booleanAttribute key="useCustomFeatures" value="false"/>
+    <booleanAttribute key="useDefaultConfig" value="true"/>
+    <booleanAttribute key="useDefaultConfigArea" value="true"/>
+    <booleanAttribute key="useProduct" value="false"/>
+</launchConfiguration>
