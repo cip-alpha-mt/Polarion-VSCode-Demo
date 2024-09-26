@@ -13,3 +13,6 @@
     * Default `C:\Polarion\polarion`
 * Set `location value=""` in [Polarion_Server.launch](Polarion_Server.launch) to your Polarion workspace folder
     * Default `C:\Polarion\data\workspace`
+
+## Notes
+* Some additional settings need to be modified when executing in linux environment
