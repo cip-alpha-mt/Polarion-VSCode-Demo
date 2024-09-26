@@ -1,5 +1,10 @@
 # READ ME
 
+## Requirements
+* [Polarion](https://polarion.plm.automation.siemens.com/downloads)
+
+## Setup
+
 * Set `java.jdt.ls.java.home` in [polarion-vscode-demo.code-workspace](polarion-vscode-demo.code-workspace) to your Java installation path
     * Default not set
 * Set `location path=""` in [polarion-platform.target](polarion-platform.target) to your Polarion home path
