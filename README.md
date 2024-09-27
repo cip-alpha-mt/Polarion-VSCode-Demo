@@ -15,4 +15,7 @@
     * Default `C:\Polarion\data\workspace`
 
 ## Notes
+* Configurations apply to Polarion V2404
 * Some additional settings need to be modified when executing in linux environment
+
+[![image](https://cip-alpha.eu/site/assets/files/1024/alpha_en_20mm.0x130.png)](https://cip-alpha.eu/en/)
